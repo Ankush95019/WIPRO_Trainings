@@ -34,11 +34,18 @@ public class StepDefinition1 {
 		driver.findElement(By.xpath("//input[@value='Log in']")).click();	
 	}
 	
+	@When("I clicked to electronics")
+	public void I_clicked_to_electronics() {
+		WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("(//a[@href='/electronics'])[1]"))).click();
+	}
+	
 	@Then("I should see the home page")
 	public void I_should_see_the_home_page() {
-		if(driver != null) {
-			driver.quit();
-		}
+		System.out.println("Then is executed successfully");
+//		if(driver != null) {
+//			driver.quit();
+//		}
 	}
 
 }
