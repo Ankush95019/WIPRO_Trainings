@@ -1,0 +1,17 @@
+<suite name="Suite">
+		<parameter name="browserName" value="Chrome" />
+		<parameter name="url" value="https://demowebshop.tricentis.com/" />
+	<test thread-count="5" name="Test">
+		<groups>    
+			<run>   
+			 	<include name="smoke"></include>    
+			 	<include name="sanity"></include>    
+			</run>    
+		</groups>
+		<classes>
+			<class name="DemoWebShop1.DemoWebShop_Testing" />
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

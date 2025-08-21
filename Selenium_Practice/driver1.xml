@@ -1,0 +1,15 @@
+<suite name="groupsdemo">
+	<test name="Test1">
+		<groups>
+			<run>
+				<include name="smoke"></include>
+			<!--	<include name="smoke"></include> -->
+			</run>
+		</groups>
+		<classes>
+			<class name="testingGroups.GroupsTesting">
+			</class>
+		</classes>
+	</test>
+
+</suite>

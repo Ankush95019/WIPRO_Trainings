@@ -1,0 +1,10 @@
+<suite name="suite1">
+	<parameter name="browserName" value="Chrome" />
+	<parameter name="url" value="https://demowebshop.tricentis.com/" /> 
+	<test name="test1">
+		<classes>
+			<class name="excel_Integration.Excel_Test">			
+			</class>
+		</classes>
+	</test>
+</suite>

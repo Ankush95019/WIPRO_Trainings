@@ -1,0 +1,10 @@
+<suite name="ParallelSuite" parallel="methods" thread-count="4">
+	<parameter name="browserName" value="Chrome" />
+	<parameter name="url" value="https://demowebshop.tricentis.com/" /> 
+	<test name="test1">
+		<classes>
+			<class name="parallel_Testing.Parallel_Testing">			
+			</class>
+		</classes>
+	</test>
+</suite>
