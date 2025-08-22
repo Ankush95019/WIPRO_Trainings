@@ -1,53 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-19T17:49:54 IST" name="Default suite" finished-at="2025-08-19T17:50:13 IST" duration-ms="18845">
+  <suite started-at="2025-08-22T22:10:56 IST" name="Default suite" finished-at="2025-08-22T22:11:30 IST" duration-ms="34218">
     <groups>
     </groups>
-    <test started-at="2025-08-19T17:49:54 IST" name="Default test" finished-at="2025-08-19T17:50:13 IST" duration-ms="18845">
-      <class name="demoQA.DemoQA">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:49:54 IST" name="setUp" finished-at="2025-08-19T17:50:06 IST" duration-ms="11587" status="PASS">
+    <test started-at="2025-08-22T22:10:56 IST" name="Default test" finished-at="2025-08-22T22:11:30 IST" duration-ms="34218">
+      <class name="DataProvider_Concept.DataProvider_Simple">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:10:56 IST" name="setUp" finished-at="2025-08-22T22:11:07 IST" duration-ms="11645" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="formTestingName()[pri:1, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:06 IST" name="formTestingName" finished-at="2025-08-19T17:50:09 IST" duration-ms="2801" status="PASS">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:07 IST" name="loginTest" data-provider="logInTestData" finished-at="2025-08-22T22:11:09 IST" duration-ms="1073" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingName -->
-        <test-method signature="formTestingEmail()[pri:2, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:09 IST" name="formTestingEmail" finished-at="2025-08-19T17:50:10 IST" duration-ms="768" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClassSetUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:09 IST" name="afterClassSetUp" finished-at="2025-08-22T22:11:09 IST" duration-ms="382" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingEmail -->
-        <test-method signature="formTestingGender()[pri:3, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:10 IST" name="formTestingGender" finished-at="2025-08-19T17:50:10 IST" duration-ms="321" status="PASS">
+        </test-method> <!-- afterClassSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:09 IST" name="setUp" finished-at="2025-08-22T22:11:14 IST" duration-ms="5211" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingGender -->
-        <test-method signature="formTestingNumber()[pri:4, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:10 IST" name="formTestingNumber" finished-at="2025-08-19T17:50:10 IST" duration-ms="278" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:14 IST" name="loginTest" data-provider="logInTestData" finished-at="2025-08-22T22:11:15 IST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin1234]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingNumber -->
-        <test-method signature="formTestingDOB()[pri:5, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:10 IST" name="formTestingDOB" finished-at="2025-08-19T17:50:12 IST" duration-ms="1285" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClassSetUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:15 IST" name="afterClassSetUp" finished-at="2025-08-22T22:11:16 IST" duration-ms="603" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingDOB -->
-        <test-method signature="formTestingSubjects()[pri:6, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:12 IST" name="formTestingSubjects" finished-at="2025-08-19T17:50:12 IST" duration-ms="643" status="PASS">
+        </test-method> <!-- afterClassSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:16 IST" name="setUp" finished-at="2025-08-22T22:11:21 IST" duration-ms="4997" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingSubjects -->
-        <test-method signature="formTestingCheckBox()[pri:7, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:12 IST" name="formTestingCheckBox" finished-at="2025-08-19T17:50:13 IST" duration-ms="380" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:21 IST" name="loginTest" data-provider="logInTestData" finished-at="2025-08-22T22:11:22 IST" duration-ms="1035" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingCheckBox -->
-        <test-method signature="formTestingUploadPicture()[pri:8, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:13 IST" name="formTestingUploadPicture" finished-at="2025-08-19T17:50:13 IST" duration-ms="135" status="PASS">
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClassSetUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:22 IST" name="afterClassSetUp" finished-at="2025-08-22T22:11:23 IST" duration-ms="764" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingUploadPicture -->
-        <test-method signature="formTestingAddress()[pri:9, instance:demoQA.DemoQA@1a677343]" started-at="2025-08-19T17:50:13 IST" name="formTestingAddress" finished-at="2025-08-19T17:50:13 IST" duration-ms="333" status="PASS">
+        </test-method> <!-- afterClassSetUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:23 IST" name="setUp" finished-at="2025-08-22T22:11:28 IST" duration-ms="5609" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- formTestingAddress -->
-      </class> <!-- demoQA.DemoQA -->
+        </test-method> <!-- setUp -->
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:28 IST" name="loginTest" data-provider="logInTestData" finished-at="2025-08-22T22:11:29 IST" duration-ms="1030" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="afterClassSetUp()[pri:0, instance:DataProvider_Concept.DataProvider_Simple@5542c4ed]" started-at="2025-08-22T22:11:29 IST" name="afterClassSetUp" finished-at="2025-08-22T22:11:30 IST" duration-ms="724" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClassSetUp -->
+      </class> <!-- DataProvider_Concept.DataProvider_Simple -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
