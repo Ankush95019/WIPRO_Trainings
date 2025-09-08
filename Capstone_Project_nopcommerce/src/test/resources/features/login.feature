@@ -15,7 +15,7 @@ Feature: User Login
 
     Examples:
       | email                       | password   |
-      | capstoneproject4510@gmail.com | Capstone@123 |
+      | capstone123@gmail.com | Capstone@123 |
 
   Scenario Outline: Login with invalid credentials
     Given I am on the login page

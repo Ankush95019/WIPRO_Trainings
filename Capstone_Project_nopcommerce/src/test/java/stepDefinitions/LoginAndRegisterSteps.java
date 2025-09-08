@@ -31,12 +31,12 @@ public class LoginAndRegisterSteps {
 
     @Then("I should see a registration success message")
     public void i_should_see_a_registration_success_message() {
-        System.out.println("✅ Registration successful validation");
+        System.out.println("Registration successful validation");
     }
 
     @Then("I should see an email already exists error")
     public void i_should_see_email_already_exists_error() {
-        System.out.println("⚠️ Email already exists validation");
+        System.out.println("Email already exists validation");
     }
 
     @Given("I am on the login page")
@@ -52,7 +52,7 @@ public class LoginAndRegisterSteps {
 
     @Then("I should see an email required error")
     public void i_should_see_an_email_required_error() {
-        System.out.println("⚠️ Email required validation");
+        System.out.println("Email required validation");
     }
 
     @When("I login with {string} and {string}")
@@ -65,11 +65,11 @@ public class LoginAndRegisterSteps {
 
     @Then("I should be logged in successfully")
     public void i_should_be_logged_in_successfully() {
-        System.out.println("✅ Login successful validation");
+        System.out.println("Login successful validation");
     }
 
     @Then("I should see a login error message")
     public void i_should_see_a_login_error_message() {
-        System.out.println("❌ Login error validation");
+        System.out.println("Login error validation");
     }
 }
