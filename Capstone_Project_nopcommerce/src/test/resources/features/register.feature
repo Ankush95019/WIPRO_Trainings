@@ -5,7 +5,7 @@ Feature: User Registration
 
   Scenario Outline: Successful Registration
     Given I am on the registration page
-    When I register with "<firstname>", "<lastname>", "<email>", "<password>", "<confirmPassword>"
+    When I register with "<firstname>" "<lastname>" "<email>" "<password>" "<confirmPassword>"
     Then I should see a registration success message
 
     Examples:
@@ -14,5 +14,5 @@ Feature: User Registration
 
   Scenario: Registration with already existing email
     Given I am on the registration page
-    When I register with "Test" "User" "capstone123@gmail.com" "Capstone@123" "Capstone@123"
+    When I register with "Tester" "XYZ" "capstone123@gmail.com" "Capstone@123" "Capstone@123"
     Then I should see an email already exists error

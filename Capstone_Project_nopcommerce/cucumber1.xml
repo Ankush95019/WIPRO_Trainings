@@ -1,0 +1,8 @@
+<suite name="nopCommerce Suite">
+  <test name="Run Features In Order">
+    <classes>
+      <class name="runner.RegisterRunner"/>
+      <class name="runner.LoginRunner"/>
+    </classes>
+  </test>
+</suite>

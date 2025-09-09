@@ -18,7 +18,7 @@ public class LoginAndRegisterSteps {
         registerPage = new RegisterPage(Hooks.driver);
     }
 
-    @When("I register with {string}, {string}, {string}, {string}, {string}")
+    @When("I register with {string} {string} {string} {string} {string}")
     public void i_register_with(String firstname, String lastname, String email, String password, String confirmPassword) {
         Map<String, String> regData = new HashMap<>();
         regData.put("firstname", firstname);
